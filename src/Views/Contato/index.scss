@@ -1,0 +1,35 @@
+.contato {
+    padding-top: 2rem;
+    background-color: #CF9B93;
+    img {
+        margin-bottom: 2rem;
+    }
+
+}
+
+.contato-idd {
+    margin-bottom: 2rem;
+}
+
+.contato-id {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #E0BDB8;
+}
+.contato-id h1 {
+    font-size: 1rem;
+    color: #2B4760;
+}
+
+.contato-id h2 {
+    padding-top: 1rem;
+    font-size: 2rem;
+    color: #fff;
+}
+@media screen and (min-width: 900px) {
+    .contato-id h1 {
+        font-size: 2rem;
+    }
+    
+}

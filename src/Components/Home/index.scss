@@ -1,0 +1,22 @@
+.backgroud {
+    background-color: #CF9B93;;
+}
+.backgroud-a {
+    // background-color: #fff;
+    img {
+        opacity: 0.6;
+      }
+}
+
+.carousel-caption {
+    color: #000000 !important;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 570px) {
+    .carousel-caption h1 {
+        font-size: 2rem;
+        margin: 0;
+    }    
+}
