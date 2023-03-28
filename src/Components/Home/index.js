@@ -75,7 +75,7 @@ const Hero = () => {
                 </Row>
             </Container>
             </section>
-            <FloatingWhatsApp {...{phoneNumber: "5599992201990",accountName: "Pessoa & Ribeiro",statusMessage: "Geralmente respondemos em 1 hora",chatMessage: "Olá, Como podemos ajudar?"}} />    
+            <FloatingWhatsApp {...{phoneNumber: "5599992201990",accountName: "Pessoa & Ribeiro",statusMessage: "Geralmente respondemos em 1 hora",chatMessage: "Olá, Como podemos ajudar?",placeholder: "Digite sua Mensagem..."}} />    
     </div>    
     );
 }  
