@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, Carousel, Col, Container, Row } from "react-bootstrap";
+import { FloatingWhatsApp } from 'react-floating-whatsapp'
 import Familia from "../../Assets/Direito-de-Familia.jpg";
 import Trabalho from "../../Assets/Direito-do-Trabalho.jpg";
 import Zesiane from "../../Assets/zesiane.jpeg";
@@ -74,7 +75,7 @@ const Hero = () => {
                 </Row>
             </Container>
             </section>
-           
+            <FloatingWhatsApp {...{phoneNumber: "5599992201990",accountName: "Pessoa & Ribeiro",statusMessage: "Geralmente respondemos em 1 hora",chatMessage: "Olá, Como podemos ajudar?"}} />    
     </div>    
     );
 }  
