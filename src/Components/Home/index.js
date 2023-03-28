@@ -37,16 +37,13 @@ const Hero = () => {
             <Container>
                 <Row className="d-flex justify-content-center " xs="auto">
                     <Col className="mt-4">
-                        <Card style={{ width: '20rem', height: '15rem' }}>
+                        <Card style={{ width: '20rem', height: '22rem' }}>
                         <Card.Body>
                             <Card.Title>Nossa Equipe</Card.Title>
-                            <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
                             <Card.Text>
-                            Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
+                                O Escritório Pessoa & Ribeiro está preparado para atender às transformações da sociedade  onde impactam diretamente o direito de sua população. 
+                                Contamos com uma equipe de advogados parceiros, dessa forma atuando de maneira rápida e ambrangente com assessoria e consultoria jurídica em todo território nacional, por meio de estratégias para alcançamos as melhores soluções nas esferas Judicial e Extrajudicial.
                             </Card.Text>
-                            <Card.Link href="#">Instagram</Card.Link>
-                            <Card.Link href="#">Facebook</Card.Link>
                         </Card.Body>
                         </Card>                        
                     </Col>
@@ -56,8 +53,8 @@ const Hero = () => {
                         <Card.Body>
                             <Card.Title>Vanessa Pessoa</Card.Title>
                             <Card.Text>
-                            {/* Some quick example text to build on the card title and make up the
-                            bulk of the card's content. */}
+                                Advogada – OAB/ MA – 22.135, Pós Graduada em Direito do Trabalho e Processo do Trabalho, Pós Graduanda em Direito de Família e Sucessões.  
+                                Atua na advocacia consultiva e contenciosa. Com experiência na condução de casos desde as fases pre-processuais, até as instâncias de julgamento final.
                             </Card.Text>
                         </Card.Body>
                         </Card>                    
@@ -68,8 +65,8 @@ const Hero = () => {
                         <Card.Body>
                             <Card.Title>Zesiane Ribeiro</Card.Title>
                             <Card.Text>
-                            {/* Some quick example text to build on the card title and make up the
-                            bulk of the card's content. */}
+                                Advogada – OAB/ MA – 21.705, Pós Graduada em Direito Civil e Processo Cível, Pós Graduanda em Direito de Família e Sucessões.  
+                                Advocacia voltada para a prestação de serviço de maneira rápida e efetiva, com soluções inovadoras e avançadas, visando sempre a satisfação do seu cliente.
                             </Card.Text>
                         </Card.Body>
                         </Card>                     
@@ -77,6 +74,7 @@ const Hero = () => {
                 </Row>
             </Container>
             </section>
+           
     </div>    
     );
 }  
