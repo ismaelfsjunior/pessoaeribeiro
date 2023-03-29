@@ -1,13 +1,13 @@
 .footer {
-    border-bottom: 0.5rem solid #f5dad6;
-    border-top:  0.5rem solid #f5dad6;
+    border-top:  0.5rem solid #B8860B;
+    border-bottom: 0.5rem solid #CF9B93;
     background-color: #2B4760;
 }
 
 @media screen and (min-width: 920px) {
     .footer {
+        border-top:  0.2rem solid #B8860B;
         border-bottom: 0.2rem solid #CF9B93; 
-        border-top:  0.2rem solid #f5dad6;
     }
     
 }
