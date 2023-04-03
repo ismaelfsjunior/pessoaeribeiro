@@ -3,6 +3,7 @@ import { Card, Carousel, Col, Container, Row } from "react-bootstrap";
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
 import Familia from "../../Assets/Direito-de-Familia.jpg";
 import Trabalho from "../../Assets/Direito-do-Trabalho.jpg";
+import Baner01 from "../../Assets/baner01.png";
 import Zesiane from "../../Assets/zesiane.jpeg";
 import Vanessa from "../../Assets/vanessa.jpeg";
 import "./index.scss"
@@ -15,18 +16,25 @@ const Hero = () => {
             <Carousel.Item>
                 <img
                 className="d-block w-100"
+                src={Baner01}
+                alt="Pessoa e Ribeiro advocacia"
+                />
+            </Carousel.Item>                
+            <Carousel.Item>
+                <img
+                className="d-block w-100"
                 src={Familia}
-                alt="First slide"
+                alt="Direito de Familia"
                 />
                 <Carousel.Caption>
-                <h1>Direito de Familia</h1>
+                <h1>Direito de Família</h1>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                 className="d-block w-100"
                 src={Trabalho}
-                alt="Second slide"
+                alt="Direito do Tabalho"
                 />
                 <Carousel.Caption>
                 <h1>Direito do Trabalho</h1>

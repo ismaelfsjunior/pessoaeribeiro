@@ -1,11 +1,17 @@
 .backgroud {
     background-color: #CF9B93;;
 }
-.backgroud-a {
-    // background-color: #fff;
-    img {
-        opacity: 0.6;
-      }
+ .backgroud-a {
+    h1 {
+        text-shadow: 
+        -1px -1px 0px #FFF, 
+        -1px 1px 0px #FFF,                    
+         1px -1px 0px #FFF,                  
+         1px 0px 0px #FFF;    
+    }
+//     img {
+//         opacity: 0.6;
+//       }
 }
 
 .carousel-caption {
