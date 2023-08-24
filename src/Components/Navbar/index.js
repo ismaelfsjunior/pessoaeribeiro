@@ -29,6 +29,9 @@ const Navigation = () => (
                     <Link to={'/Trabalho'}>
                         <Button variant="link" className="nav-link">Direito do Trabalho</Button>
                     </Link>    
+                    <Link to={'/Consumidor'}>
+                        <Button variant="link" className="nav-link">Direito do Consumidor</Button>
+                    </Link>                      
                     <Link to={'/Contato'}>
                         <Button variant="link" className="nav-link">Contato</Button>
                     </Link>                                                                           

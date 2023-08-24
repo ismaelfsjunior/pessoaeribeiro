@@ -3,6 +3,7 @@ import Home from "../Components/Home";
 import Contato from "../Views/Contato";
 import Familia from "../Views/Familia";
 import Trabalho from "../Views/Trabalho";
+import Consumidor from "../Views/Consumidor";
 
 export default function Rotas() {
     return(
@@ -10,6 +11,7 @@ export default function Rotas() {
                 <Route path="/" element={<Home /> } />
                 <Route path="/Familia" element={ <Familia />} />
                 <Route path="/Trabalho" element={ <Trabalho />} />
+                <Route path="/Consumidor" element={ <Consumidor />} />
                 <Route path="/Contato" element={ <Contato />} />
                 {/* <Route path="/Newpage" element={ <Newpage />} /> 
                 <Route path="/Newcad" element={ <Formcadastro />} /> 
