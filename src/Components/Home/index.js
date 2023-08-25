@@ -6,6 +6,7 @@ import Trabalho from "../../Assets/Direito-do-Trabalho.jpg";
 import Baner01 from "../../Assets/baner01.png";
 import Zesiane from "../../Assets/zesiane.jpeg";
 import Vanessa from "../../Assets/vanessa.jpeg";
+import Equipe from "../../Assets/equipe.jpg";
 import "./index.scss"
 
 const Hero = () => {
@@ -43,10 +44,11 @@ const Hero = () => {
             </Carousel>
         </section>
         <section className="pt-4 pb-4">
-            <Container>
-                <Row className="d-flex justify-content-center " xs="auto">
+            <Container className="d-flex justify-content-center ">
+                <Row className="d-flex justify-content-center" xs='auto'>
                     <Col className="mt-4">
-                        <Card style={{ width: '20rem', height: '22rem' }}>
+                        <Card style={{ width: '26rem'}}>
+                        <Card.Img variant="top" src={Equipe} />    
                         <Card.Body>
                             <Card.Title>Nossa Equipe</Card.Title>
                             <Card.Text>
@@ -57,11 +59,11 @@ const Hero = () => {
                         </Card>                        
                     </Col>
                     <Col className="mt-4">
-                        <Card style={{ width: '20rem' }}>
+                        <Card style={{ width: '26rem' }}>
                         <Card.Img variant="top" src={Vanessa} />
                         <Card.Body>
                             <Card.Title>Vanessa Pessoa</Card.Title>
-                            <Card.Text>
+                            <Card.Text style={{ height: '13.5rem' }}>
                                 Advogada – OAB/ MA – 22.135, Pós Graduada em Direito do Trabalho e Processo do Trabalho, Pós Graduanda em Direito de Família e Sucessões.  
                                 Atua na advocacia consultiva e contenciosa. Com experiência na condução de casos desde as fases pre-processuais, até as instâncias de julgamento final.
                             </Card.Text>
@@ -69,11 +71,11 @@ const Hero = () => {
                         </Card>                    
                     </Col>
                     <Col className="mt-4">
-                        <Card style={{ width: '20rem' }}>
+                        <Card style={{ width: '26rem' }}>
                         <Card.Img variant="top" src={Zesiane} />
                         <Card.Body>
                             <Card.Title>Zesiane Ribeiro</Card.Title>
-                            <Card.Text>
+                            <Card.Text style={{ height: '13.5rem' }}>
                                 Advogada – OAB/ MA – 21.705, Pós Graduada em Direito Civil e Processo Cível, Pós Graduanda em Direito de Família e Sucessões.  
                                 Advocacia voltada para a prestação de serviço de maneira rápida e efetiva, com soluções inovadoras e avançadas, visando sempre a satisfação do seu cliente.
                             </Card.Text>
